@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  background: whitesmoke;
+
+}
+
+*{
+  box-sizing: border-box;
+  font-size: 66.6%;
+}
+
+.App{
+  width: 100%;
+  
+  
+}
+
+.buscador{
+  width: 70%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.buscador form {
+  font-size: 2.4rem;
+  
+  width: 100%;
+  height: 50px;
+  display: flex;
+ 
+}
+.buscador form input{
+  width: 90%;
+  height: 100%;
+}
+.buscador form button{
+  width: auto;
+  height: 100%;
+}
+
+.divisor{
+  display: flex;
+  width: 90%;
+  margin: 0 5%;
+  
+}
+
+
+.preview-images-container{
+  width: 70%;
+  height: auto;
+  margin: 40px 0;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat( auto-fit, minmax(160px, 1fr) );
+}
+
+.prev-image{
+  width: 200px;
+  border: .4px black solid;
+  margin: 0 auto;
+  box-shadow: black 0 0 10px 1px;
+  border-radius: 5% ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+}
+
+.prev-image img{
+  border-radius: 5% ;
+}
+
+.sider-bar-container{
+  margin: 0;
+  font-size: 1.6rem;
+  width: 25%;
+  height: 400px;
+  
+  
+  align-content: center;
+  background: blanchedalmond;
+  margin: 40px auto;
+  padding: 10px;
+  min-width: 200px;
+  border: black solid .5px;
+  border-radius: 5%;
+  
+}
+
+.lenguage,.image-types{
+  margin: 10px 0 20px 0 ;
+  display: flex;
+  flex-direction: column;
+}
+
+.lenguage button,.image-types button{
+  width: 50%;
+  min-width: 110px;
+  margin: auto;
+  background: cornflowerblue;
+  height: 30px;
+  font-size: 2rem;
+  margin-top: 15px;
+
+}
